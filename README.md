@@ -42,8 +42,10 @@
 
 | Arduino Pin | Connected To             |
 |-------------|--------------------------|
-| D2          | Trigger (Ultrasonic)     |
-| D3          | Echo (Ultrasonic)        |
+| D8 (NewPin) | Trigger (Ultrasonic)     |
+| D8 (NewPin) | Echo (Ultrasonic)        |
+| D6 (NewPin) | Trigger (Ultrasonic)     |
+| D6 (NewPin) | Echo (Ultrasonic)        |
 | D4          | Relay IN (to control pump)|
 | GND         | GND                      |
 | 5V          | VCC of sensor & relay    |
