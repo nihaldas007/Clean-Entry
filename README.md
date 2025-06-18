@@ -10,7 +10,7 @@
 - Activates **spray pump** (or mist nozzle) automatically
 - Built with **Arduino Nano/Uno**
 - Quick spray duration to save liquid and reduce waste
-- Optional: LED indicator or buzzer for status
+- Speaker: Sound alert
 
 ---
 
@@ -25,7 +25,7 @@
 | Tubing + Nozzle       | 1 set    |
 | Power Supply (5V or 12V depending on pump) | 1        |
 | Jumper Wires          | As needed |
-| Optional: Buzzer / LED| 1 each   |
+| Sound Speaker         | 1 each   |
 
 ---
 
@@ -35,7 +35,7 @@
 2. The Arduino triggers the **relay** to activate the **spray pump**.
 3. A short spray of alcohol or sanitizer is released.
 4. The system waits briefly before becoming active again.
-
+5. The system has a sound alert.
 ---
 
 ## 🔌 Basic Circuit Connections
@@ -46,7 +46,8 @@
 | D8 (NewPin) | Echo (Ultrasonic)        |
 | D6 (NewPin) | Trigger (Ultrasonic)     |
 | D6 (NewPin) | Echo (Ultrasonic)        |
-| D4          | Relay IN (to control pump)|
+| D7          | Relay IN (to control pump)|
+| D9          | Speaker                  |
 | GND         | GND                      |
 | 5V          | VCC of sensor & relay    |
 
